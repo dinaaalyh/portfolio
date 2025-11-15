@@ -1,13 +1,20 @@
 "use client";
 import { useState } from "react";
+import diabetesClassifier from "@/assets/images/diabetes-classifier.png";
+import technoIndie from "@/assets/images/techno-indie.png";
 import rajaApp from "@/assets/images/raja-rpa.png";
 import clinicManagementApp from "@/assets/images/clinic-management-app.png";
-import findfluence from "@/assets/images/findfluence.png";
 import cinetixApp from "@/assets/images/cinetix-id.png";
 import recipeMasterApp from "@/assets/images/recipe-master.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
+import Python from "@/assets/icons/python.svg";
+import Flask from "@/assets/icons/flask.svg";
+import Kaggle from "@/assets/icons/kaggle.svg";
+import GoogleColab from "@/assets/icons/google-colab.svg";
+import Git from "@/assets/icons/git.svg";
+import Figma from "@/assets/icons/figma.svg";
 import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
@@ -74,15 +81,16 @@ const portfolioMobileProjects = [
 
 const portfolioAndroidProjects = [
   {
-    company: "Fernand Jerico",
+    company: "Dina Aaliyah",
     year: "2024",
-    title: "Recipe Master - Recipe App",
+    title: "AgroVision - Plant Health Monitoring App",
     results: [
-      { title: "Create Recipes with Video or Photos" },
-      { title: "Search and Discover Recipes" },
-      { title: "Explore Popular Categories" },
+      { title: "Leaf Photo-Based Disease Detection" },
+      { title: "Supports Rice, Corn, Sugarcane, Cassava" },
+      { title: "Fast AI-Powered Diagnosis" },
+      { title: "Clear Result Display & Monitoring" },
     ],
-    link: "https://www.github.com/FernandJerico/RecipeMaster",
+    link: "https://github.com/C241-PS206/MD-main-app",
     image: recipeMasterApp,
     tech: [Kotlin, Firebase],
   },
@@ -90,18 +98,31 @@ const portfolioAndroidProjects = [
 
 const portfolioWebsiteProjects = [
   {
-    company: "PT. Adma Digital Solusi",
-    year: "2023",
-    title: "FindFluence - Influencer Marketing Platform",
+    company: "Final Year Project",
+    year: "2025",
+    title: "Diabetes Classifier",
     results: [
-      { title: "Influencer Product Requests for Reviews" },
-      { title: "Brand Campaign Contracts with Influencers" },
-      { title: "Two-Way Brand-Influencer Collaboration" },
-      { title: "Streamlined Contract Management" },
+      { title: "Diabetes Risk Prediction from Health Data" },
+      { title: "Percentage-Based Result Display" },
+      { title: "Fast ML-Powered Analysis" },
+      { title: "Saved Prediction History" },
     ],
-    link: "https://www.findfluence.adslink.id/",
-    image: findfluence,
-    tech: [Php, Laravel, Javascript, Bootstrap, Mysql],
+    link: "https://github.com/dinaaalyh/skripsi-dm-classifier",
+    image: diabetesClassifier,
+    tech: [Python, Flask, Flutter, Kaggle, GoogleColab, Git, Figma],
+  },
+  {
+    company: "Dina Aaliyah",
+    year: "2024",
+    title: "Techno Indie - PC Assembly & Maintenance Service",
+    results: [
+      { title: "Easy Online Booking for PC Assembly" },
+      { title: "Computer Maintenance Service Requests" },
+      { title: "Clear Service Status & Updates" },
+    ],
+    link: "https://github.com/dinaaalyh/techno_indie_website",
+    image: technoIndie,
+    tech: [Laravel, Bootstrap, Mysql, Git],
   },
 ];
 

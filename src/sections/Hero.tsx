@@ -1,5 +1,5 @@
 "use client";
-import myPhoto from "@/assets/images/fernand.png";
+import myPhoto from "@/assets/images/dina.jpg";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
@@ -134,7 +134,7 @@ export const HeroSection = () => {
           <ArrowDown className="size-4" />
         </button>
         <a
-          href="https://www.linkedin.com/in/fernand-jerico"
+          href="https://www.linkedin.com/in/dina-aaliyah/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
