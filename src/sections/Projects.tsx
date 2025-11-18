@@ -2,6 +2,8 @@
 import { useState } from "react";
 import diabetesClassifier from "@/assets/images/diabetes-classifier.png";
 import technoIndie from "@/assets/images/techno-indie.png";
+import agroVision from "@/assets/images/agro-vision.png";
+import snazzyStyle from "@/assets/images/snazzy-style.png";
 import rajaApp from "@/assets/images/raja-rpa.png";
 import clinicManagementApp from "@/assets/images/clinic-management-app.png";
 import cinetixApp from "@/assets/images/cinetix-id.png";
@@ -19,6 +21,7 @@ import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
+import AndroidStudio from "@/assets/icons/android-studio.svg";
 import GoogleMaps from "@/assets/icons/google-maps.svg";
 import Javascript from "@/assets/icons/javascript.svg";
 import Laravel from "@/assets/icons/laravel.svg";
@@ -32,20 +35,7 @@ import { Card } from "@/components/Card";
 
 const portfolioMobileProjects = [
   {
-    company: "Fernand Jerico",
-    year: "2024",
-    title: "CineTix ID - Movie Ticketing App",
-    results: [
-      { title: "Movie Selection and Ticket Purchase" },
-      { title: "Top-Up Balance for Seamless Payments" },
-      { title: "Purchase History with Detailed Ticket Information" },
-    ],
-    link: "https://www.github.com/FernandJerico/cinetix_id",
-    image: cinetixApp,
-    tech: [Dart, Flutter, Firebase, FlutterRiverpod],
-  },
-  {
-    company: "PT. Rajawali Permata Asia",
+    company: "PT. Adma Digital Solusi",
     year: "2024",
     title: "RAJA - Attendance and Payroll App",
     results: [
@@ -64,24 +54,23 @@ const portfolioMobileProjects = [
     tech: [Dart, Flutter, Firebase, GoogleMaps, FlutterBloc],
   },
   {
-    company: "Final Year Project",
-    year: "2024",
-    title: "Clinic Management App",
+    company: "Dina Aaliyah",
+    year: "2023",
+    title: "SnazzyStyle - Movie Ticketing App",
     results: [
-      { title: "Online Consultation Reservation" },
-      { title: "Push Notifications using FCM" },
-      { title: "Electronic Medical Records (EMR) System" },
-      { title: "Integrate with Bluetooth Printer" },
+      { title: "Movie Selection and Ticket Purchase" },
+      { title: "Top-Up Balance for Seamless Payments" },
+      { title: "Purchase History with Detailed Ticket Information" },
     ],
-    link: "https://www.github.com/FernandJerico/clinic_management_app",
-    image: clinicManagementApp,
-    tech: [Dart, Flutter, Php, Laravel, Mysql, Javascript],
+    link: "https://www.github.com/dinaaalyh/tailor-project",
+    image: snazzyStyle,
+    tech: [Dart, Flutter, Figma, Git],
   },
 ];
 
 const portfolioAndroidProjects = [
   {
-    company: "Dina Aaliyah",
+    company: "Bangkit Academy",
     year: "2024",
     title: "AgroVision - Plant Health Monitoring App",
     results: [
@@ -91,8 +80,8 @@ const portfolioAndroidProjects = [
       { title: "Clear Result Display & Monitoring" },
     ],
     link: "https://github.com/C241-PS206/MD-main-app",
-    image: recipeMasterApp,
-    tech: [Kotlin, Firebase],
+    image: agroVision,
+    tech: [AndroidStudio, Kotlin, Figma, Git],
   },
 ];
 
