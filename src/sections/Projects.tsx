@@ -5,6 +5,10 @@ import technoIndie from "@/assets/images/techno-indie.png";
 import agroVision from "@/assets/images/agro-vision.png";
 import snazzyStyle from "@/assets/images/snazzy-style.png";
 import rajaApp from "@/assets/images/raja-rpa.png";
+import medhub from "@/assets/images/medhub.png";
+import farm from "@/assets/images/farm-app.png";
+import gpApp from "@/assets/images/gpApp.png";
+import damApp from "@/assets/images/dgApp.png";
 import clinicManagementApp from "@/assets/images/clinic-management-app.png";
 import cinetixApp from "@/assets/images/cinetix-id.png";
 import recipeMasterApp from "@/assets/images/recipe-master.png";
@@ -37,26 +41,80 @@ const portfolioMobileProjects = [
   {
     company: "PT. Adma Digital Solusi",
     year: "2024",
-    title: "RAJA - Attendance and Payroll App",
+    title: "G Partnership Mobile App (Confidential Project)",
     results: [
       {
-        title: "Attendance feature using GPS tracking",
+        title: "Mobile reporting & user workflow (confidential)",
       },
       {
-        title: "Manages and calculates employee salaries",
+        title: "Real-time API integration",
       },
       {
-        title: "Over 10 active users daily: Ensuring\ndaily system usage",
+        title: "Feature updates & UI enhancements",
+      },
+      {
+        title: "Collaborative development with QA & technical team",
       },
     ],
-    link: "https://www.github.com/FernandJerico/",
-    image: rajaApp,
-    tech: [Dart, Flutter, Firebase, GoogleMaps, FlutterBloc],
+    link: "🔒 Private Project – No Live Link Available",
+    image: gpApp,
+    tech: [Dart, Flutter, FlutterBloc],
+  },
+  {
+    company: "PT. Adma Digital Solusi",
+    year: "2024",
+    title: "F Partnership App (Agriculture Sector)",
+    results: [
+      {
+        title: "Mobile reporting & user workflow (confidential)",
+      },
+      {
+        title: "Feature updates & UI enhancements",
+      },
+      {
+        title: "Collaborative development with QA & technical team",
+      },
+    ],
+    link: "🔒 Private Project – No Live Link Available",
+    image: farm,
+    tech: [Dart, Flutter, FlutterBloc],
+  },
+  {
+    company: "PT. Adma Digital Solusi",
+    year: "2024",
+    title: "Digital Affiliate Marketing App (Maintenance & Update)",
+    results: [
+      {
+        title: "Improved UI & implemented new screens",
+      },
+      {
+        title: "Production app maintenance & bug fixes",
+      },
+      {
+        title: "Feature updates & UI enhancements",
+      },
+    ],
+    link: "🔒 Private Project – No Live Link Available",
+    image: damApp,
+    tech: [Dart, Flutter, FlutterBloc],
+  },
+  {
+    company: "Dina Aaliyah",
+    year: "2024",
+    title: "ADS Test - Technical Test App",
+    results: [
+      { title: "Movie Selection and Ticket Purchase" },
+      { title: "Top-Up Balance for Seamless Payments" },
+      { title: "Purchase History with Detailed Ticket Information" },
+    ],
+    link: "https://github.com/dinaaalyh/medhub-app",
+    image: medhub,
+    tech: [Dart, Flutter, Figma, Git],
   },
   {
     company: "Dina Aaliyah",
     year: "2023",
-    title: "SnazzyStyle - Movie Ticketing App",
+    title: "SnazzyStyle - Tailor Project App",
     results: [
       { title: "Movie Selection and Ticket Purchase" },
       { title: "Top-Up Balance for Seamless Payments" },
@@ -110,6 +168,19 @@ const portfolioWebsiteProjects = [
       { title: "Clear Service Status & Updates" },
     ],
     link: "https://github.com/dinaaalyh/techno_indie_website",
+    image: technoIndie,
+    tech: [Laravel, Bootstrap, Mysql, Git],
+  },
+  {
+    company: "Dina Aaliyah",
+    year: "2023",
+    title: "Community Health Center Service System",
+    results: [
+      { title: "Easy Online Booking for PC Assembly" },
+      { title: "Computer Maintenance Service Requests" },
+      { title: "Clear Service Status & Updates" },
+    ],
+    link: "https://github.com/dinaaalyh/puskesmas-website",
     image: technoIndie,
     tech: [Laravel, Bootstrap, Mysql, Git],
   },
