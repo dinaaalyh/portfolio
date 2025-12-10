@@ -4,14 +4,10 @@ import diabetesClassifier from "@/assets/images/diabetes-classifier.png";
 import technoIndie from "@/assets/images/techno-indie.png";
 import agroVision from "@/assets/images/agro-vision.png";
 import snazzyStyle from "@/assets/images/snazzy-style.png";
-import rajaApp from "@/assets/images/raja-rpa.png";
 import medhub from "@/assets/images/medhub.png";
 import farm from "@/assets/images/farm-app.png";
 import gpApp from "@/assets/images/gpApp.png";
 import damApp from "@/assets/images/dgApp.png";
-import clinicManagementApp from "@/assets/images/clinic-management-app.png";
-import cinetixApp from "@/assets/images/cinetix-id.png";
-import recipeMasterApp from "@/assets/images/recipe-master.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -22,6 +18,7 @@ import GoogleColab from "@/assets/icons/google-colab.svg";
 import Git from "@/assets/icons/git.svg";
 import Figma from "@/assets/icons/figma.svg";
 import Bootstrap from "@/assets/icons/bootstrap.svg";
+import Trello from "@/assets/icons/trello.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
@@ -43,69 +40,51 @@ const portfolioMobileProjects = [
     year: "2024",
     title: "G Partnership Mobile App (Confidential Project)",
     results: [
-      {
-        title: "Mobile reporting & user workflow (confidential)",
-      },
-      {
-        title: "Real-time API integration",
-      },
-      {
-        title: "Feature updates & UI enhancements",
-      },
-      {
-        title: "Collaborative development with QA & technical team",
-      },
+      { title: "Developed mobile application screens by converting UI/UX prototypes into functional Flutter code" },
+      { title: "Implemented BLoC/Cubit state management to maintain predictable UI states, improve code scalability, and streamline data flow across application features" },
+      { title: "Integrated REST APIs to enable real-time data communication and ensure seamless user experience" },
+      { title: "Contributed to product development in a real-case environment with cross-functional collaboration" },
+      { title: "Implemented refinement cycles based on QA findings and client feedback to enhance usability and performance" },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: gpApp,
-    tech: [Dart, Flutter, FlutterBloc],
+    tech: [Dart, Flutter, FlutterBloc, Git, Trello],
   },
   {
     company: "PT. Adma Digital Solusi",
     year: "2024",
     title: "F Partnership App (Agriculture Sector)",
     results: [
-      {
-        title: "Mobile reporting & user workflow (confidential)",
-      },
-      {
-        title: "Feature updates & UI enhancements",
-      },
-      {
-        title: "Collaborative development with QA & technical team",
-      },
+      { title: "Translated UI designs into responsive Flutter interfaces to support intuitive user interaction" },
+      { title: "Collaborated within the development team to deliver results aligned with real project requirements" },
+      { title: "Executed multiple enhancement iterations based on stakeholder and QA evaluation" },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: farm,
-    tech: [Dart, Flutter, FlutterBloc],
+    tech: [Dart, Flutter, FlutterBloc, Git, Trello],
   },
   {
     company: "PT. Adma Digital Solusi",
     year: "2024",
     title: "Digital Affiliate Marketing App (Maintenance & Update)",
     results: [
-      {
-        title: "Improved UI & implemented new screens",
-      },
-      {
-        title: "Production app maintenance & bug fixes",
-      },
-      {
-        title: "Feature updates & UI enhancements",
-      },
+      { title: "Converted interface concepts into interactive Flutter screens for smoother user workflow" },
+      { title: "Performed ongoing maintenance and feature updates to keep the application relevant and scalable" },
+      { title: "Delivered revisions based on client direction to improve product quality and functionality" },
+      { title: "Refactored sections of legacy code to reduce technical debt and enhance efficiency" },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: damApp,
-    tech: [Dart, Flutter, FlutterBloc],
+    tech: [Dart, Flutter, FlutterBloc, Git, Trello],
   },
   {
     company: "Dina Aaliyah",
     year: "2024",
-    title: "ADS Test - Technical Test App",
+    title: "ADS Technical Test — Flutter UI Slicing Project",
     results: [
-      { title: "Movie Selection and Ticket Purchase" },
-      { title: "Top-Up Balance for Seamless Payments" },
-      { title: "Purchase History with Detailed Ticket Information" },
+      { title: "Converted UI/UX design into pixel-perfect Flutter screens with consistent layout implementation" },
+      { title: "Organized folder and widget structure for clear readability and scalability of code" },
+      { title: "Ensured design accuracy by validating alignment, spacing, and visual elements against reference mockups" },
     ],
     link: "https://github.com/dinaaalyh/medhub-app",
     image: medhub,
@@ -116,9 +95,9 @@ const portfolioMobileProjects = [
     year: "2023",
     title: "SnazzyStyle - Tailor Project App",
     results: [
-      { title: "Movie Selection and Ticket Purchase" },
-      { title: "Top-Up Balance for Seamless Payments" },
-      { title: "Purchase History with Detailed Ticket Information" },
+      { title: "Developed the entire application interface using Flutter, focusing on precise UI slicing from the provided design" },
+      { title: "Implemented interactive navigation between multiple screens such as home, order form, order history, and profile" },
+      { title: "Applied clean code practices and proper folder structuring for better project organization and scalability" },
     ],
     link: "https://www.github.com/dinaaalyh/tailor-project",
     image: snazzyStyle,
@@ -176,9 +155,10 @@ const portfolioWebsiteProjects = [
     year: "2023",
     title: "Community Health Center Service System",
     results: [
-      { title: "Easy Online Booking for PC Assembly" },
-      { title: "Computer Maintenance Service Requests" },
-      { title: "Clear Service Status & Updates" },
+      { title: "Enables patients to register for healthcare services online" },
+      { title: "Real-time access and retrieval of patient records" },
+      { title: "Includes core features such as online registration, patient data management, and medical service scheduling" },
+      { title: "Equipped with an admin/staff dashboard to efficiently monitor, verify, and manage patient registration data" },
     ],
     link: "https://github.com/dinaaalyh/puskesmas-website",
     image: technoIndie,
