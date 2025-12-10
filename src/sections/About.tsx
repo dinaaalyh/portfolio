@@ -9,6 +9,7 @@ import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
 import Github from "@/assets/icons/github.svg";
+import Git from "@/assets/icons/git.svg";
 import GoogleMaps from "@/assets/icons/google-maps.svg";
 import Javascript from "@/assets/icons/javascript.svg";
 import Laravel from "@/assets/icons/laravel.svg";
@@ -18,7 +19,7 @@ import FlutterBloc from "@/assets/icons/bloc.svg";
 import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
 import React from "@/assets/icons/react.svg";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/map2.png";
 import myPhoto from "@/assets/images/dina.jpg";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItem } from "@/components/ToolboxItem";
@@ -39,8 +40,8 @@ const toolboxItems = [
     iconType: FlutterBloc,
   },
   {
-    title: "Flutter Riverpod",
-    iconType: FlutterRiverpod,
+    title: "Git",
+    iconType: Git,
   },
   {
     title: "Github",
@@ -49,10 +50,6 @@ const toolboxItems = [
   {
     title: "Bootstrap",
     iconType: Bootstrap,
-  },
-  {
-    title: "CSS3",
-    iconType: CSS3,
   },
   {
     title: "PHP",
@@ -67,24 +64,12 @@ const toolboxItems = [
     iconType: Firebase,
   },
   {
-    title: "Google Maps",
-    iconType: GoogleMaps,
-  },
-  {
-    title: "Javascript",
-    iconType: Javascript,
-  },
-  {
     title: "Kotlin",
     iconType: Kotlin,
   },
   {
     title: "MySQL",
     iconType: Mysql,
-  },
-  {
-    title: "React",
-    iconType: React,
   },
 ];
 
@@ -96,8 +81,8 @@ const hobbies = [
     top: "5%",
   },
   {
-    title: "Badminton",
-    emoji: "🏸",
+    title: "Reading",
+    emoji: "📘",
     left: "50%",
     top: "5%",
   },
@@ -112,12 +97,6 @@ const hobbies = [
     emoji: "🎵",
     left: "35%",
     top: "40%",
-  },
-  {
-    title: "Photography",
-    emoji: "📷",
-    left: "60%",
-    top: "45%",
   },
   {
     title: "Sleeping",
@@ -145,16 +124,7 @@ export const AboutSection = () => {
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
-            <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-              <CardHeader
-                title="My Reads"
-                description="Explore the books shaping my perspectives."
-              />
-              <div className="w-40 mx-auto mt-2 md:mt-0">
-                <Image src={bookImage} alt="Book Image" />
-              </div>
-            </Card>
-            <Card className="h-[320px] md:col-span-3 lg:col-span-2">
+            <Card className="h-[320px] md:col-span-3 lg:col-span-3">
               <CardHeader
                 title="My Toolbox"
                 description="Explore the technologies and tools I use to craft exceptional
