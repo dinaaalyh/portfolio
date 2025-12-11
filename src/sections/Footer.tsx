@@ -13,6 +13,10 @@ const footerLinks = [
     title: "Instagram",
     href: "https://www.instagram.com/dinaaalyh/",
   },
+  {
+    title: "Email",
+    href: "mailto:dina.aaliyah@gmail.com",
+  },
 ];
 
 export const Footer = () => {
