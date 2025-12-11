@@ -4,9 +4,9 @@ import diabetesClassifier from "@/assets/images/diabetes-classifier.png";
 import technoIndie from "@/assets/images/techno-indie.png";
 import agroVision from "@/assets/images/agro-vision.png";
 import snazzyStyle from "@/assets/images/snazzy-style.png";
-import medhub from "@/assets/images/medhub.png";
-import farm from "@/assets/images/farm-app.png";
-import gpApp from "@/assets/images/gpApp.png";
+import medhub from "@/assets/images/medhub2.png";
+import farm from "@/assets/images/farm-app2.png";
+import gpApp from "@/assets/images/gpApp3.png";
 import damApp from "@/assets/images/dgApp.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -157,8 +157,7 @@ const portfolioWebsiteProjects = [
     results: [
       { title: "Enables patients to register for healthcare services online" },
       { title: "Real-time access and retrieval of patient records" },
-      { title: "Includes core features such as online registration, patient data management, and medical service scheduling" },
-      { title: "Equipped with an admin/staff dashboard to efficiently monitor, verify, and manage patient registration data" },
+      { title: "Equipped with an admin/staff dashboard to monitoring data" },
     ],
     link: "https://github.com/dinaaalyh/puskesmas-website",
     image: technoIndie,
