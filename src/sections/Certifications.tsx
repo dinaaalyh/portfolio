@@ -126,7 +126,7 @@ const certificates = [
   },
 ];
 
-export const SertificationsSection = () => {
+export const CertificationsSection = () => {
   return (
     <div className="py-16 lg:py-24">
       <div className="container">
