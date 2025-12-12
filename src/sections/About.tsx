@@ -76,20 +76,20 @@ const hobbies = [
     top: "5%",
   },
   {
-    title: "Reading",
-    emoji: "📘",
+    title: "Music",
+    emoji: "🎵",
     left: "50%",
     top: "5%",
   },
   {
-    title: "Gaming",
-    emoji: "🎮",
+    title: "Movies",
+    emoji: "🎥",
     left: "10%",
     top: "35%",
   },
   {
-    title: "Music",
-    emoji: "🎵",
+    title: "Reading",
+    emoji: "📘",
     left: "35%",
     top: "40%",
   },
@@ -100,8 +100,8 @@ const hobbies = [
     top: "65%",
   },
   {
-    title: "Movies",
-    emoji: "🎥",
+    title: "Gaming",
+    emoji: "🎮",
     left: "45%",
     top: "70%",
   },
@@ -115,7 +115,7 @@ export const AboutSection = () => {
         <SectionHeader
           eyebrow="About Me"
           title="A Glimpse Into My World"
-          description="I'm a mobile developer with a passion for building beautiful and intuitive user interfaces. I specialize in Flutter and Kotlin"
+          description="I'm a mobile developer with a passion for building beautiful and intuitive user interfaces. I specialize in Flutter"
         />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">

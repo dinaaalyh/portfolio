@@ -23,13 +23,10 @@ import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
 import AndroidStudio from "@/assets/icons/android-studio.svg";
-import GoogleMaps from "@/assets/icons/google-maps.svg";
-import Javascript from "@/assets/icons/javascript.svg";
 import Laravel from "@/assets/icons/laravel.svg";
 import Mysql from "@/assets/icons/mysql.svg";
 import Php from "@/assets/icons/php.svg";
 import FlutterBloc from "@/assets/icons/bloc.svg";
-import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
@@ -53,7 +50,7 @@ const portfolioMobileProjects = [
   {
     company: "PT. Adma Digital Solusi",
     year: "2024",
-    title: "F Partnership App (Agriculture Sector)",
+    title: "F Partnership App (Confidential Project)",
     results: [
       { title: "Translated UI designs into responsive Flutter interfaces to support intuitive user interaction" },
       { title: "Collaborated within the development team to deliver results aligned with real project requirements" },
@@ -91,7 +88,7 @@ const portfolioMobileProjects = [
     tech: [Dart, Flutter, Figma, Git],
   },
   {
-    company: "Dina Aaliyah",
+    company: "College Project Assignment",
     year: "2023",
     title: "SnazzyStyle - Tailor Project App",
     results: [
@@ -138,7 +135,7 @@ const portfolioWebsiteProjects = [
     tech: [Python, Flask, Flutter, Kaggle, GoogleColab, Git, Figma],
   },
   {
-    company: "Dina Aaliyah",
+    company: "College Project Assignment",
     year: "2024",
     title: "Techno Indie - PC Assembly & Maintenance Service",
     results: [
@@ -148,12 +145,12 @@ const portfolioWebsiteProjects = [
     ],
     link: "https://github.com/dinaaalyh/techno_indie_website",
     image: technoIndie,
-    tech: [Laravel, Bootstrap, Mysql, Git],
+    tech: [Php, Laravel, Bootstrap, Mysql, Git],
   },
   {
-    company: "Dina Aaliyah",
+    company: "College Project Assignment",
     year: "2023",
-    title: "Community Health Center Service System",
+    title: "Registration at The Community Health Center",
     results: [
       { title: "Enables patients to register for healthcare services online" },
       { title: "Real-time access and retrieval of patient records" },
@@ -161,7 +158,7 @@ const portfolioWebsiteProjects = [
     ],
     link: "https://github.com/dinaaalyh/puskesmas-website",
     image: technoIndie,
-    tech: [Laravel, Bootstrap, Mysql, Git],
+    tech: [Php, Laravel, Bootstrap, Mysql, Git],
   },
 ];
 
