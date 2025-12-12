@@ -2,6 +2,7 @@
 import { useState } from "react";
 import diabetesClassifier from "@/assets/images/diabetes-classifier.png";
 import technoIndie from "@/assets/images/techno-indie.png";
+import puskesmas from "@/assets/images/puskesmas.png";
 import agroVision from "@/assets/images/agro-vision.png";
 import snazzyStyle from "@/assets/images/snazzy-style.png";
 import medhub from "@/assets/images/medhub2.png";
@@ -156,7 +157,7 @@ const portfolioWebsiteProjects = [
       { title: "Equipped with an admin/staff dashboard to monitoring data" },
     ],
     link: "https://github.com/dinaaalyh/puskesmas-website",
-    image: technoIndie,
+    image: puskesmas,
     tech: [Php, Laravel, Bootstrap, Mysql, Git],
   },
 ];
