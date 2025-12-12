@@ -20,7 +20,6 @@ import Figma from "@/assets/icons/figma.svg";
 import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Trello from "@/assets/icons/trello.svg";
 import Dart from "@/assets/icons/dart.svg";
-import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
 import AndroidStudio from "@/assets/icons/android-studio.svg";
 import Laravel from "@/assets/icons/laravel.svg";
