@@ -133,7 +133,7 @@ export const CertificationsSection = () => {
         <SectionHeader
           eyebrow="Certifications & Achievements"
           title="Recognitions That Strengthen My Professional Credibility"
-          description="Here are my 19th certifications that reflect my continuous learning and professional growth in the tech field."
+          description="Here are my 20th certifications that reflect my continuous learning and professional growth in the tech field."
         />
 
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
