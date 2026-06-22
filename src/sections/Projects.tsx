@@ -22,6 +22,7 @@ import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Trello from "@/assets/icons/trello.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Flutter from "@/assets/icons/flutter.svg";
+import Riverpod from "@/assets/icons/flutter-riverpod.svg";
 import AndroidStudio from "@/assets/icons/android-studio.svg";
 import Laravel from "@/assets/icons/laravel.svg";
 import Mysql from "@/assets/icons/mysql.svg";
@@ -33,15 +34,60 @@ import { Card } from "@/components/Card";
 
 const portfolioMobileProjects = [
   {
+    company: "PT. Sinar Roda Utama",
+    year: "2026",
+    title: "SuperApp",
+    results: [
+      {
+        title:
+          "Developed modular and high-performance mobile application screens by translating complex UI/UX prototypes into functional Flutter code",
+      },
+      {
+        title:
+          "Implemented Riverpod for robust state management and Freezed for type-safe, immutable data models, ensuring highly predictable UI states and scalable architecture",
+      },
+      {
+        title:
+          "Integrated REST APIs using Retrofit and Dio to handle seamless data communication, automated request/response parsing, and efficient error handling",
+      },
+      {
+        title:
+          "Collaborated with cross-functional teams in a Kanban, real-case environment to drive features from concept to production deployment",
+      },
+      {
+        title:
+          "Optimized application usability and performance through continuous refinement cycles based on QA metrics and user feedback",
+      },
+    ],
+    link: "🔒 Private Project – No Live Link Available",
+    image: gpApp,
+    tech: [Dart, Flutter, Riverpod, Figma],
+  },
+  {
     company: "PT. Adma Digital Solusi",
     year: "2024",
     title: "G Partnership Mobile App (Confidential Project)",
     results: [
-      { title: "Developed mobile application screens by converting UI/UX prototypes into functional Flutter code" },
-      { title: "Implemented BLoC/Cubit state management to maintain predictable UI states, improve code scalability, and streamline data flow across application features" },
-      { title: "Integrated REST APIs to enable real-time data communication and ensure seamless user experience" },
-      { title: "Contributed to product development in a real-case environment with cross-functional collaboration" },
-      { title: "Implemented refinement cycles based on QA findings and client feedback to enhance usability and performance" },
+      {
+        title:
+          "Developed mobile application screens by converting UI/UX prototypes into functional Flutter code",
+      },
+      {
+        title:
+          "Implemented BLoC/Cubit state management to maintain predictable UI states, improve code scalability, and streamline data flow across application features",
+      },
+      {
+        title:
+          "Integrated REST APIs to enable real-time data communication and ensure seamless user experience",
+      },
+      {
+        title:
+          "Contributed to product development in a real-case environment with cross-functional collaboration",
+      },
+      {
+        title:
+          "Implemented refinement cycles based on QA findings and client feedback to enhance usability and performance",
+      },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: gpApp,
@@ -52,9 +98,18 @@ const portfolioMobileProjects = [
     year: "2024",
     title: "F Partnership App (Confidential Project)",
     results: [
-      { title: "Translated UI designs into responsive Flutter interfaces to support intuitive user interaction" },
-      { title: "Collaborated within the development team to deliver results aligned with real project requirements" },
-      { title: "Executed multiple enhancement iterations based on stakeholder and QA evaluation" },
+      {
+        title:
+          "Translated UI designs into responsive Flutter interfaces to support intuitive user interaction",
+      },
+      {
+        title:
+          "Collaborated within the development team to deliver results aligned with real project requirements",
+      },
+      {
+        title:
+          "Executed multiple enhancement iterations based on stakeholder and QA evaluation",
+      },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: farm,
@@ -65,10 +120,22 @@ const portfolioMobileProjects = [
     year: "2024",
     title: "Digital Affiliate Marketing App (Maintenance & Update)",
     results: [
-      { title: "Converted interface concepts into interactive Flutter screens for smoother user workflow" },
-      { title: "Performed ongoing maintenance and feature updates to keep the application relevant and scalable" },
-      { title: "Delivered revisions based on client direction to improve product quality and functionality" },
-      { title: "Refactored sections of legacy code to reduce technical debt and enhance efficiency" },
+      {
+        title:
+          "Converted interface concepts into interactive Flutter screens for smoother user workflow",
+      },
+      {
+        title:
+          "Performed ongoing maintenance and feature updates to keep the application relevant and scalable",
+      },
+      {
+        title:
+          "Delivered revisions based on client direction to improve product quality and functionality",
+      },
+      {
+        title:
+          "Refactored sections of legacy code to reduce technical debt and enhance efficiency",
+      },
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: damApp,
@@ -79,9 +146,18 @@ const portfolioMobileProjects = [
     year: "2024",
     title: "ADS Technical Test — Flutter UI Slicing Project",
     results: [
-      { title: "Converted UI/UX design into pixel-perfect Flutter screens with consistent layout implementation" },
-      { title: "Organized folder and widget structure for clear readability and scalability of code" },
-      { title: "Ensured design accuracy by validating alignment, spacing, and visual elements against reference mockups" },
+      {
+        title:
+          "Converted UI/UX design into pixel-perfect Flutter screens with consistent layout implementation",
+      },
+      {
+        title:
+          "Organized folder and widget structure for clear readability and scalability of code",
+      },
+      {
+        title:
+          "Ensured design accuracy by validating alignment, spacing, and visual elements against reference mockups",
+      },
     ],
     link: "https://github.com/dinaaalyh/medhub-app",
     image: medhub,
@@ -92,9 +168,18 @@ const portfolioMobileProjects = [
     year: "2023",
     title: "SnazzyStyle - Tailor Project App",
     results: [
-      { title: "Developed the entire application interface using Flutter, focusing on precise UI slicing from the provided design" },
-      { title: "Implemented interactive navigation between multiple screens such as home, order form, order history, and profile" },
-      { title: "Applied clean code practices and proper folder structuring for better project organization and scalability" },
+      {
+        title:
+          "Developed the entire application interface using Flutter, focusing on precise UI slicing from the provided design",
+      },
+      {
+        title:
+          "Implemented interactive navigation between multiple screens such as home, order form, order history, and profile",
+      },
+      {
+        title:
+          "Applied clean code practices and proper folder structuring for better project organization and scalability",
+      },
     ],
     link: "https://www.github.com/dinaaalyh/tailor-project",
     image: snazzyStyle,
@@ -186,7 +271,8 @@ export const ProjectsSection = () => {
                 ? "bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900"
                 : ""
             }`}
-            onClick={() => setActiveTab("mobile")}>
+            onClick={() => setActiveTab("mobile")}
+          >
             Mobile
           </button>
           <button
@@ -195,7 +281,8 @@ export const ProjectsSection = () => {
                 ? "bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900"
                 : ""
             }`}
-            onClick={() => setActiveTab("android")}>
+            onClick={() => setActiveTab("android")}
+          >
             Android
           </button>
           <button
@@ -204,7 +291,8 @@ export const ProjectsSection = () => {
                 ? "bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900"
                 : ""
             }`}
-            onClick={() => setActiveTab("website")}>
+            onClick={() => setActiveTab("website")}
+          >
             Website
           </button>
         </div>
@@ -216,7 +304,8 @@ export const ProjectsSection = () => {
               className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
               style={{
                 top: `calc(64px + ${projectIndex * 40}px)`,
-              }}>
+              }}
+            >
               <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
                 <span>{project.company}</span>
                 <span>&bull;</span>
@@ -232,7 +321,8 @@ export const ProjectsSection = () => {
                     {project.results.map((result) => (
                       <li
                         key={result.title}
-                        className="flex gap-2 text-sm md:text-base text-white/50">
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckIcon className="size-5 md:size-6" />
                         <span className="whitespace-pre-line">
                           {result.title}

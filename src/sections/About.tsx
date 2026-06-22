@@ -6,6 +6,7 @@ import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Firebase from "@/assets/icons/firebase.svg";
 import Flutter from "@/assets/icons/flutter.svg";
+import Riverpod from "@/assets/icons/flutter-riverpod.svg";
 import Github from "@/assets/icons/github.svg";
 import Git from "@/assets/icons/git.svg";
 import Laravel from "@/assets/icons/laravel.svg";
@@ -29,6 +30,10 @@ const toolboxItems = [
   {
     title: "Flutter",
     iconType: Flutter,
+  },
+  {
+    title: "Riverpod",
+    iconType: Riverpod,
   },
   {
     title: "Flutter Bloc",
@@ -155,7 +160,8 @@ export const AboutSection = () => {
                       top: hobby.top,
                     }}
                     drag
-                    dragConstraints={constraintRef}>
+                    dragConstraints={constraintRef}
+                  >
                     <span className="font-medium text-gray-950">
                       {hobby.title}
                     </span>
