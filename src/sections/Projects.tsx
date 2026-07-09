@@ -8,6 +8,8 @@ import snazzyStyle from "@/assets/images/snazzy-style.png";
 import medhub from "@/assets/images/medhub2.png";
 import farm from "@/assets/images/farm-app2.png";
 import gpApp from "@/assets/images/gpApp3.png";
+import superApp from "@/assets/images/super-app.png";
+import itFormMockup from "@/assets/images/it-form-mockup.png";
 import damApp from "@/assets/images/dgApp.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -60,7 +62,7 @@ const portfolioMobileProjects = [
       },
     ],
     link: "🔒 Private Project – No Live Link Available",
-    image: gpApp,
+    image: superApp,
     tech: [Dart, Flutter, Riverpod, Figma],
   },
   {
@@ -247,6 +249,22 @@ const portfolioWebsiteProjects = [
   },
 ];
 
+const portfolioMockupProjects = [
+  {
+    company: "PT. Sinar Roda Utama",
+    year: "2026",
+    title: "Digitization of IT forms",
+    results: [
+      { title: "High-Fidelity UI Mockups for Streamlined IT Requests" },
+      { title: "User-Centric Forms Optimized for Faster Data Entry" },
+      { title: "Standardized Component Library for Consistent UX" },
+    ],
+    link: "",
+    image: itFormMockup,
+    tech: [Figma],
+  },
+];
+
 export const ProjectsSection = () => {
   const [activeTab, setActiveTab] = useState("mobile");
 
@@ -254,6 +272,7 @@ export const ProjectsSection = () => {
     if (activeTab === "mobile") return portfolioMobileProjects;
     if (activeTab === "android") return portfolioAndroidProjects;
     if (activeTab === "website") return portfolioWebsiteProjects;
+    if (activeTab === "mockup") return portfolioMockupProjects;
   };
 
   return (
@@ -295,6 +314,16 @@ export const ProjectsSection = () => {
           >
             Website
           </button>
+          <button
+            className={`h-10 md:h-12 w-full md:w-auto px-4 md:px-6 rounded-xl font-semibold ${
+              activeTab === "mockup"
+                ? "bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900"
+                : ""
+            }`}
+            onClick={() => setActiveTab("mockup")}
+          >
+            Mockup
+          </button>
         </div>
 
         <div className="mt-8 md:mt-10 flex flex-col gap-20">
@@ -330,7 +359,7 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <ul className="flex flex-row gap-2 mt-3 md:mt-3">
+                  <ul className="flex flex-row gap-2 mt-6 md:mt-8">
                     {project.tech.map((TechIcon, index) => (
                       <li key={index}>
                         <TechIcon className="w-6 h-6" alt="Tech Icon" />
@@ -338,7 +367,7 @@ export const ProjectsSection = () => {
                     ))}
                   </ul>
                   <a href={project.link}>
-                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-6">
                       <span>Visit Live Site</span>
                       <ArrowRightIcon className="size-4" />
                     </button>
