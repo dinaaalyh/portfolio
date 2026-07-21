@@ -63,7 +63,23 @@ const portfolioMobileProjects = [
     ],
     link: "🔒 Private Project – No Live Link Available",
     image: superApp,
-    tech: [Dart, Flutter, Riverpod, Figma],
+    tech: [Dart, Flutter, Riverpod, Figma, Git],
+  },
+  {
+    company: "PT. Sinar Roda Utama",
+    year: "2025",
+    title: "SRU Technical Test - News App",
+    results: [
+      {
+        title: "SOON",
+      },
+      {
+        title: "SOON",
+      },
+    ],
+    link: "https://github.com/dinaaalyh/news-apps",
+    image: superApp,
+    tech: [Dart, Flutter, Git],
   },
   {
     company: "PT. Adma Digital Solusi",
@@ -207,6 +223,15 @@ const portfolioAndroidProjects = [
 ];
 
 const portfolioWebsiteProjects = [
+  {
+    company: "Personal Project",
+    year: "2025",
+    title: "Sekawan Media Technical Test - ",
+    results: [{ title: "SOON" }],
+    link: "https://github.com/dinaaalyh/vehicle-booking-management",
+    image: diabetesClassifier,
+    tech: [Php, Laravel, Git, Mysql],
+  },
   {
     company: "Final Year Project",
     year: "2025",
